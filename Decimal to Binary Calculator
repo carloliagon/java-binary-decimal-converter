@@ -1,0 +1,26 @@
+// John Carlo M. Liagon
+// September 18,2024
+// Programming: Decimal to Binary Calculator
+
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        String userInput;
+        
+        while (true) {
+            System.out.print("Enter a number: ");
+            userInput = scanner.nextLine();
+            
+            if (userInput.equalsIgnoreCase("stop")) {
+                break;
+            }
+            System.out.println(userInput);
+        }
+        
+        System.out.print("Progam has been stopped");
+        
+    }
+}
