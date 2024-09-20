@@ -5,8 +5,7 @@ import java.util.Scanner;
 class HelloWorld {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        
+         
         String userInput;
         
         while (true) {
@@ -22,7 +21,6 @@ class HelloWorld {
                 decNumber = Integer.parseInt(decimalNumber);
             }
         }
-    
         System.out.print("Progam has been stopped");
         
         remainder = decNumber;
