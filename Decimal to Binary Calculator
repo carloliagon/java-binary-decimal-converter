@@ -1,12 +1,11 @@
 // John Carlo M. Liagon
 // September 18,2024
 // Programming: Decimal to Binary Calculator
-
 import java.util.Scanner;
-
 class HelloWorld {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         
         String userInput;
         
@@ -18,9 +17,24 @@ class HelloWorld {
                 break;
             }
             System.out.println(userInput);
+           
+            else {
+                decNumber = Integer.parseInt(decimalNumber);
+            }
         }
-        
+    
         System.out.print("Progam has been stopped");
         
+        remainder = decNumber;
+        
+        while (remainder != 0) {
+            BinaryNumber[i++] = remainder % 2;
+            remainder = remainder / 2;
+        }
+        
+        System.out.print("This Binary number is ");
+        for (j = i - 1; j > 0; j--) {
+            System.out.print(binaryNumber[j]);
+        }
     }
 }
