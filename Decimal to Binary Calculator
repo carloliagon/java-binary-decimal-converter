@@ -16,11 +16,12 @@ class HelloWorld {
                 break;
             }
             System.out.println(userInput);
-           
+         } 
+
             else {
                 decNumber = Integer.parseInt(decimalNumber);
             }
-        }
+        
         System.out.print("Progam has been stopped");
         
         remainder = decNumber;
