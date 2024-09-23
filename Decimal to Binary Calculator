@@ -4,11 +4,12 @@
 import java.util.Scanner;
 class HelloWorld {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-         
-        String userInput;
         
         while (true) {
+        Scanner scanner = new Scanner(System.in);
+        
+        String userInput;
+
             System.out.print("Enter a number: ");
             userInput = scanner.nextLine();
             
@@ -16,7 +17,7 @@ class HelloWorld {
                 break;
             }
             System.out.println(userInput);
-         } 
+          
 
             else {
                 decNumber = Integer.parseInt(decimalNumber);
@@ -34,6 +35,7 @@ class HelloWorld {
         System.out.print("This Binary number is ");
         for (j = i - 1; j > 0; j--) {
             System.out.print(binaryNumber[j]);
+           }
         }
     }
 }
